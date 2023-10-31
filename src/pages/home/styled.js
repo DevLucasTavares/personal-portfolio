@@ -33,13 +33,13 @@ display: flex;
 flex-direction: column;
 background-color: white;
 border-radius: 10px;
-padding: 10px;
+padding: 10px 10px 30px 10px;
 margin: 20px;
 gap: 10px;
 text-align: center;
 // justify-content: center;
 // align-items: center;
-padding-bottom: 30px
+// padding: 40px
 
 @media (min-width: 1024px) {
   width: 40vw
