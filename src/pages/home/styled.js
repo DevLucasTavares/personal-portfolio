@@ -17,10 +17,9 @@ background-color: white;
 border-radius: 10px;
 padding: 10px;
 margin: 20px;
+margin-top: 40px;
 gap: 10px;
 text-align: center;
-// justify-content: center;
-// align-items: center;
 
 @media (min-width: 1024px) {
   width: 40vw
@@ -37,9 +36,6 @@ padding: 10px 10px 30px 10px;
 margin: 20px;
 gap: 10px;
 text-align: center;
-// justify-content: center;
-// align-items: center;
-// padding: 40px
 
 @media (min-width: 1024px) {
   width: 40vw
@@ -54,6 +50,11 @@ background-color: lightgray;
 border-radius: 10px;
 padding-bottom: 10px;
 margin: 5px;
+
+p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
 `
 
 export const FormContainer = styled.div`
