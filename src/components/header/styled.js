@@ -11,7 +11,7 @@ export const HeaderStyled = styled.div`
   align-items: center;
   padding: 10px;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 800px) {
     padding: 10px 20vw 10px 20vw;
   }
 `

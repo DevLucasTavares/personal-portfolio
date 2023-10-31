@@ -10,10 +10,39 @@ export const Header = () => {
 
   return (
     <HeaderStyled>
-      <Button color='white' bg='' _hover={{bg:theme.colors.azul["100"]}} onClick={()=> goToHomePage(navigate)}>Home</Button>
-      <Button color='white' bg='' _hover={{bg:theme.colors.azul["100"]}} onClick={()=> goToAboutPage(navigate)}>Sobre Mim</Button>
-      <Button color='white' bg='' _hover={{bg:theme.colors.azul["100"]}} onClick={()=> goToExperiencesPage(navigate)}>Experiências</Button>
-      <Button color='white' bg='' _hover={{bg:theme.colors.azul["100"]}} onClick={()=> goToProjectsPage(navigate)}>Projetos</Button>
+
+      <Button 
+        fontSize={['l', 'xl']} 
+        color='white' 
+        bg='' 
+        _hover={{bg:theme.colors.azul["100"]}} 
+        onClick={()=> goToHomePage(navigate)}
+      >Home</Button>
+
+      <Button 
+        fontSize={['l', 'xl']} 
+        color='white' 
+        bg='' 
+        _hover={{bg:theme.colors.azul["100"]}} 
+        onClick={()=> goToAboutPage(navigate)}
+      >Sobre Mim</Button>
+
+      <Button 
+        fontSize={['l', 'xl']} 
+        color='white' 
+        bg='' 
+        _hover={{bg:theme.colors.azul["100"]}} 
+        onClick={()=> goToExperiencesPage(navigate)}
+      >Experiências</Button>
+
+      <Button 
+        fontSize={['l', 'xl']} 
+        color='white' 
+        bg='' 
+        _hover={{bg:theme.colors.azul["100"]}} 
+        onClick={()=> goToProjectsPage(navigate)}
+      >Projetos</Button>
+      
     </HeaderStyled>
   )
 }
