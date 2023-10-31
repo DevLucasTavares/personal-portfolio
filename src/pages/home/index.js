@@ -211,7 +211,7 @@ export const HomePage = () => {
           <Input placeholder='Email' type='email' name='email' required/>
           <Textarea placeholder='Mensagem' type='text' name='message' />
           <Input type='hidden' name='_captcha' value='false'/>
-          <Input type='hidden' name='_next' value='http://localhost:3000/'/>
+          <Input type='hidden' name='_next' value='https://devlucastavares.vercel.app/'/>
 
           <Button
             color='white' 
