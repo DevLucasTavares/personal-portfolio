@@ -1,5 +1,7 @@
+import { Loading } from "../../components"
+
 export const AboutPage = () => {
   return (
-    <h1>About Me</h1>
+    <Loading/>
   )
 }
