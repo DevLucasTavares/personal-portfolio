@@ -3,11 +3,15 @@ import { theme } from "../../styles";
 
 export const HeaderStyled = styled.div`
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   background-color: ${theme.colors.azul["500"]};
-  // background-color: black; 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+
+  @media (min-width: 1024px) {
+    padding: 10px 20vw 10px 20vw;
+  }
 `

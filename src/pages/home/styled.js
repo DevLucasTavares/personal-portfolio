@@ -1,24 +1,75 @@
 import styled from "styled-components";
 
 export const HomePageContainer = styled.div`
-  height: 88vh;
-  width: 100vw;
+  min-height: 88vh;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color: #f4f4f4;
 `
 
+export const ResumeContainer = styled.div`
+width: 60vw;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+margin: 20px;
+gap: 10px;
+text-align: center;
+// justify-content: center;
+// align-items: center;
+
+@media (min-width: 1024px) {
+  width: 40vw
+}
+`
+
+export const ProjectContainer = styled.div`
+width: 60vw;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+margin: 20px;
+gap: 10px;
+text-align: center;
+// justify-content: center;
+// align-items: center;
+padding-bottom: 30px
+
+@media (min-width: 1024px) {
+  width: 40vw
+}
+`
+
+export const ProjectChamber = styled.div`
+// width: 10vw;
+display: flex;
+flex-direction: column;
+background-color: lightgray;
+border-radius: 10px;
+padding-bottom: 10px;
+margin: 5px;
+`
+
 export const FormContainer = styled.div`
-  width: 40vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  margin: 20px;
 
-  input, p {
+  input, textarea {
     margin-bottom: 10px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 40vw
   }
 `
